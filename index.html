@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/> 
+  <title>Planet Picker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script defer type="text/javascript" src="./src/index.js"></script>
+</head>
+
+<body>
+  <div class="stars"></div>
+  <nav>
+    <a class="item">Our Solar System</a>
+    <a class="item">Exo Planets</a>
+    <div class="item">
+      Star's
+      <div class="dropdown">
+        <div>
+          <a>Red Dwarf</a>
+          <a>Neutron Star</a>
+          <a>Gaint Star</a>
+        </div>
+      </div>
+    </div>
+    <a class="item" id="showForm">Add your favriote planet!</a>
+    <div class="underline"></div>
+  </nav>
+  <header>
+  <h3>Planet's</h3>
+</header>
+<div id="Planet-menu"></div>
+
+
+
+
+  
+  
+<div id="Planet-detail">
+    <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+    <h2 class="name">Insert Name of the planet Here</h2>
+    <h3 class="solar-system">Insert the Solar System Here</h3>
+  </div>
+
+
+ <div class="gif-container" id="gif-container">
+  <img src="https://media.tenor.com/GocCvG7hs78AAAAi/rocket-joypixels.gif" alt="Your GIF" class="gif" id="gif">
+ </div> 
+
+
+ <br><h3>Age:</h3>
+  <p>
+    <span id='age-display'>Insert the planet's age here</span>
+  </p>
+  <br><h3>Size:</h3>
+  <p id='size-display'>
+    Insert size of the Planet here
+  </p>
+  
+  <br><h3>Description:</h3>
+  <p id='Description'>a
+  Planet's discription here </p>
+  
+
+<br><h3>Fact:</h3>
+  <div class="Fact"></div>
+  
+
+<div id="formDiv"> 
+   <form id="planetForm">
+   <p id="instructions">Fill out this form and submit a planet!</p><br>
+   
+    <label for="planetName">1. Planet Name:</label>
+    <input type="text" id="newPlanetName" name="planetName" required>
+
+    <label for="planetImage">2. Image of the planet (Valid URL)</label>    
+    <input type="text" id="newPlanetImage" name="planetImage" required>
+
+   <label for="solarSystem">3. Solar system the planet is in.</label>
+   <input type="text" id="newSolarSystem" name="solarSystem" required>
+   
+   
+    <label>4. Age (in the millions or Billions):</label>
+    <input  id="newAge" name="Age" required>
+    
+  <label>5. Size (units must be mi or km):</label>
+   <input id="newSize" name="size" required>
+
+    <label for="description">6. Description:</label>
+    <textarea id="newDescription" name="description" rows="4" required></textarea>
+
+    <label for="fact">7. Fact:</label>
+    <textarea id="newFact" name="fact" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form> 
+</div>      
+
+<br><p id="dimensions"></p> 
+
+</body>
+</html>

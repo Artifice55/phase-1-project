@@ -1,0 +1,192 @@
+{
+  "Planets": [
+    {
+      "id": 1,
+      "name": "Mercury",
+      "solar_system": " Our Solar System",
+      "image": "https://cdn.britannica.com/89/186789-131-1A5BC9A1/Planet-Mercury-spacecraft-MESSENGER-Colors-images-color.jpg?w=600&q=60",
+      "age": "  4.503 Billion years old",
+      "size": {
+        "diameter_km": "1,516mi (2,440km)"
+     },
+      "description": "Small and rocky.",
+      "facts" : "Mercury, the smallest and closest planet to the Sun in our solar system, is a fascinating celestial body with distinctive characteristics."
+    
+    },
+    {
+      "id": 2,
+      "name": "Venus",
+      "solar_system": " Our Solar System",
+      "image": "https://science.nasa.gov/_ipx/w_1024&f_webp/https://images-assets.nasa.gov/image/PIA00271/PIA00271~large.jpg%3Fw=1920%26h=1920%26fit=clip%26crop=faces%252Cfocalpoint",
+      "age": "4.503 Billion years old " ,
+      "size": {
+        "diameter_km": "3,760mi (6,052km)"
+    },
+    "description": "Similar to Earth in size.",
+      "facts": "Venus, the second planet from the Sun, is distinguished by its scorching temperatures and thick atmosphere primarily composed of carbon dioxide. Its clouds contain sulfuric acid, adding to its hostile environment."
+  
+  },
+    {
+      "id": 3,
+      "name": "Earth",
+      "solar_system": "Our Solar System",
+      "image": "https://cdn.britannica.com/25/160325-050-EB1C8FB7/image-instruments-Earth-satellite-NASA-Suomi-National-2012.jpg?w=300",
+      "age": "4.543 Billion years old",
+      "size": {
+        "diameter_km": "3,959mi (6,371km)" 
+        
+      },
+    "description": "The only known planet with life.",
+    "facts": "Earth, the third planet, is unique as the only known celestial body supporting life. With a diverse ecosystem, moderate temperatures, and a protective atmosphere, Earth is a haven for a vast array of living organisms."  
+  },
+    {
+      "id": 4,
+      "name": "Mars",
+      "solar_system": " Our Solar System",
+      "image": "https://cdn.mos.cms.futurecdn.net/BiH44Z2Wd9PS55wXBuQK8H-1200-80.jpg",
+      "age": " 4.603 Billion years old",
+      "size": {
+        "diameter_km": "2,106mi (3,390km)" 
+      
+      },
+    "description": "Home to the tallest volcano, tallets mountain and the deepest canyon.",
+    "facts": "Mars, the fourth planet from the Sun, is renowned for its distinctive reddish hue, earning it the moniker Red Planet. "
+  },
+   
+    {
+      "id": 5,
+      "name": "Jupiter",
+      "solar_system": " Our Solar System",
+      "image": "https://cdn.mos.cms.futurecdn.net/Cvzdqd7AxLzjzQNoZaQVhC-1200-80.jpg",
+      "age": "4.603 Bill ion years old",
+      "size": {
+        "diameter_km": "43,441mi (69,911km)" 
+       
+      },
+    "description": "Largest planet, known for its Great Red Spot.",
+     "facts": "Jupiter, the largest planet in our solar system, showcases a mesmerizing display of colorful bands and features the iconic Great Red Spot—a massive storm that has persisted for centuries."
+  },
+  
+    {
+      "id": 6,
+      "name": "Saturn",
+      "solar_system": "Our Solar System",
+      "image": "https://cdn.britannica.com/00/81400-050-8BBE1CDA/Saturn-rings-composite-images-spacecraft-Cassini-Shadows-October-6-2004.jpg",
+      "age": "4.503 Billion years old",
+      "size": {
+        "diameter_km": "36,183 mi (58,232 km)"
+      },
+      "description": "Known for its stunning ring system.",
+      "facts": "Saturn, known for its stunning ring system, is a gas giant with icy rings that captivate observers. Its unique features make it a standout in our planetary lineup."
+    },
+    {
+      "id": 7,
+      "name": "Uranus",
+      "solar_system": "Our Solar System",
+      "image": "https://cdn.mos.cms.futurecdn.net/b3Nqnpyv2YS6iwrw4EB7pZ-650-80.jpg.webp",
+      "age": "4.503 Billion years old",
+      "size": {
+        "diameter_km": "15,759 mi (25,362 km)"
+      },
+      "description": "Rotates on its side, with a unique tilted axis.",
+      "facts": "Uranus , the ice giants, present distinct rotational axes and icy compositions in their atmospheres, contributing to their intriguing characteristics."
+    },
+    {
+      "id": 8,
+      "name": "Neptune",
+      "solar_system": "Our Solar System",
+      "image": "https://science.nasa.gov/_ipx/w_2048&f_webp/https://images-assets.nasa.gov/image/PIA01492/PIA01492~large.jpg%3Fw=1920%26h=1917%26fit=clip%26crop=faces%252Cfocalpoint",
+      "age": "4.503 Billion years old",
+      "size": {
+        "diameter_km": "30,599 mi (49,244 km)"
+      },
+      "description": "Known for its deep blue color and strong winds.",
+      "facts": ""
+    },
+    {
+      "id": 9,
+      "name": "Pluto",
+      "solar_system": "Kuiper Belt",
+      "image": "https://cdn.uanews.arizona.edu/s3fs-public/styles/uaqs_large/public/story-images/Pluto%20whole%20color.png?itok=ytlG1fwV",
+      "age": "4.503 Billion years old",
+      "size": {
+        "diameter_km": "1,477 mi (2,377 km)"
+      },
+      "description": "Dwarf planet in the outer reaches of the solar system.",
+      "facts": "Pluto, once considered the ninth planet, is a dwarf planet located in the Kuiper Belt and is known for its complex system of moons, including Charon, Nix, and Hydra."
+    },
+    {
+      "id": 10,
+      "name": "Eris",
+      "solar_system": "Kuiper Belt",
+      "image": "https://theplanets.org/123/2021/10/Eris-Facts.png",
+      "age": "4.503 Billion years old",
+      "size": {
+        "diameter_km": "1,445 mi (2,326 km)"
+      },
+      "description": "Dwarf planet in the scattered disc, known for its discovery leading to the reclassification of Pluto.",
+      "facts": "Eris, a dwarf planet discovered in 2005, is about the same size as Pluto and played a key role in the reclassification of Pluto and the definition of what constitutes a planet in our solar system."
+    },
+    {
+      "id": 11,
+      "name": "Haumea",
+      "solar_system": "Kuiper Belt",
+      "image": "https://cdn.britannica.com/66/137066-004-13F11781/rendering-Artist-moons-Haumea.jpg?w=300",
+      "age": "4.503 Billion years old",
+      "size": {
+        "diameter_km": "1,218 mi (1,961 km)"
+      },
+      "description": "Dwarf planet with an elongated shape, located in the Kuiper belt.",
+      "facts": "Haumea is a dwarf planet with a unique elongated shape, believed to result from its rapid rotation. It has two moons, Hiʻiaka and Namaka, and is named after the Hawaiian goddess of childbirth and fertility."
+    },
+    {
+      "id": 12,
+      "name": "Gliese 876 b",
+      "solar_system": "Laplace resonance",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jkv.Gliese876.b.png",
+      "age": "Uknown",
+      "size": {
+        "diameter_km": "888 mi (1,430 km)"
+      },
+      "description": "A blue gas giant, as big as Jupiter",
+      "facts": "Gliese 86bm is a binary star system located in the constellation Hydra, showcasing the diverse nature of celestial bodies in our galaxy."
+    },
+    {
+      "id": 13,
+      "name": "Ceres",
+      "solar_system": "Innner Solar System",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg/220px-Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg",
+      "age": "4.603 Billion years old",
+      "size": {
+        "diameter_km": "590 mi (940 km)"
+    
+      },
+      "description": "Dwarf planet and the largest object in the asteroid belt between Mars and Jupiter.",
+      "facts": "Ceres, the largest object in the asteroid belt, offers insights into the early solar system and is considered a dwarf planet."
+    },
+    {
+      "id": 14,
+      "name": "Kepler-22b",
+      "solar_system": "Kepler-22 System",
+      "image": "https://preview.redd.it/o3wiamibb1ub1.png?width=1606&format=png&auto=webp&s=039ddd6c6e10fbdefa244e07a242f6bf0dca2491",
+      "age": "Unknown",
+      "size": {
+        "diameter_km": "Unknown"
+      },
+      "description": "Exoplanet located in the habitable zone of the Kepler-22 system.",
+      "facts": "Kepler-22b is an exoplanet orbiting a sun-like star, adding to the growing list of known planets beyond our solar system." 
+    },
+    {
+      "id": 15,
+      "name": "Trappist-1e",
+      "solar_system": "Trappist-1 System",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/TRAPPIST-1e_artist_impression_2018.png/220px-TRAPPIST-1e_artist_impression_2018.png",
+      "age": "Unknown",
+      "size": {
+        "diameter_km": "Unknown" 
+      },
+      "description": "Exoplanet in the habitable zone of the Trappist-1 system.",
+      "facts": "Trappist-1e is an Earth-sized exoplanet within the habitable zone of the Trappist-1 system, making it a target for potential exploration in the search for extraterrestrial life. "
+    } 
+  ]
+}

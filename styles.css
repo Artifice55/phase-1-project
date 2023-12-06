@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  text-align: center;
+  background-color: black ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   overflow: scroll; 
+} 
+
+header {
+  padding: 0.5rem;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+h3 {
+  color: white;
+}
+
+.Fact-container {
+  color:white;
+}
+
+.solar-system {
+  color: black ;
+}
+
+#age-display {
+  color:white;
+}
+
+#size-display {
+  color:white;
+}
+
+#Description {
+  color:white;
+}
+
+#Planet-menu {
+  overflow-x: auto;
+  margin: 1rem 0;
+  max-width: calc(100vw - 2rem);
+}
+
+#Planet-menu img {
+  flex: 0 1 auto;
+  height: 150px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+#Planet img:last-child {
+  margin-right: 0;
+}
+
+#Planet-detail {
+  position: relative;
+}
+
+.detail-image {
+  height: 350px;
+}
+
+.name,
+.solar-system {
+  position: absolute;
+  left: 10px;
+  padding: 0.25rem 5rem 0.25rem 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.name {
+  bottom: 60px;
+  color:black;
+}
+
+.solar-system {
+  bottom: 20px;
+}
+
+.Fact-container {
+  white-space: nowrap;
+  animation: typing 3s steps(30) infinite, blink 1s step-end infinite;
+  animation: forwards;
+  animation-direction: alternate;
+  font-size: 1.6rem;
+  width: 60;
+  height: 50;
+}
+
+@keyframes typing {
+  from {width: 0 }
+  to { height: 100}
+}
+
+/* .stars {
+  /* position: relative; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* top: 0;
+  left: 0;
+  pointer-events: none; */
+/* }  */
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 100%;
+  animation: twinkle 1s infinite alternate;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+ 
+} 
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #2f67ec;
+}
+
+ body {
+  font-family: "Euclid Circular A", "Poppins";
+  background: black;
+  color: white;
+  margin: 0;
+  display: grid;
+  place-items: center;
+} 
+
+nav {
+  position: relative;
+  background: black;
+  font-weight: 400;
+  font-size: 0;
+  display: flex;
+  padding: 0;
+  width: 80%;
+}
+
+nav .item {
+  font-size: 0.8rem;
+  display: inline-block;
+  position: relative;
+  padding: 0 20px;
+  cursor: pointer;
+  z-index: 5;
+  min-width: 25%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.dropdown {
+  overflow: hidden;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  left: 0;
+  top: 62px;
+}
+.dropdown > div {
+  transform: translate(0, -100%);
+  transition: all 0.5s 0.1s;
+  position: relative;
+}
+
+.dropdown a {
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: var(--color-primary);
+}
+
+.dropdown a:hover {
+  background: #254fb5;
+}
+
+.underline {
+  height: 6px;
+  background: var(--color-primary);
+  position: absolute;
+  bottom: 0;
+  width: 25%;
+  z-index: 2;
+  pointer-events: none;
+  transition: 0.35s;
+}
+
+nav .item:hover > .dropdown > div {
+  transform: translate(0);
+}
+
+nav .item:nth-child(1):hover ~ .underline {
+  transform: translate(0, 0);
+}
+
+nav .item:nth-child(2):hover ~ .underline {
+  transform: translate(100%, 0);
+}
+
+nav .item:nth-child(3):hover ~ .underline {
+  transform: translate(200%, 0);
+}
+
+nav .item:nth-child(4):hover ~ .underline {
+  transform: translate(300%, 0);
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#form-container {
+  width: 45%;
+}
+
+#submitted-planet {
+  width: 45%;
+  padding-left: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="radio"],
+textarea,
+select {
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+#gif-container {
+  position: relative;
+  display: inline-block;
+}
+
+.gif {
+  width: 20%;
+  height: auto;
+}
+
+.gif:hover {
+  animation: playGif 1s steps(1) infinite;
+}
+
+@keyframes playGif {
+  to {
+      background-position: -100%;
+  }
+}
+
+
+
